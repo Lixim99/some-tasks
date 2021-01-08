@@ -5,12 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hub</title>
+    <title>Lesson 1</title>
 </head>
 <body>
     <ul>
-        <li><a href="lesson1/">lesson1</a></li>
-        <li><a href="lesson2/">lesson2</a></li>
+        <li><a href="pattern/arrays.php">Array</a></li>
+        <li><a href="pattern/associativeArray.php">Associative array</a></li>
+        <li><a href="pattern/multiArray.php">Multidimensional array</a></li>
     </ul>
 </body>
 </html>
