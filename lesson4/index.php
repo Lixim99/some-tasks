@@ -5,14 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hub</title>
+    <title>Lesson 1</title>
 </head>
 <body>
     <ul>
-        <li><a href="lesson1/">lesson1</a></li>
-        <li><a href="lesson2/">lesson2</a></li>
-        <li><a href="lesson3/">lesson3</a></li>
-        <li><a href="lesson4/">lesson4</a></li>
+        <li><a href="pattern/forEach.php">for each</a></li>
+        <li><a href="pattern/keyWork.php">work with keys</a></li>
+        <li><a href="pattern/whileAndFor.php">while and for</a></li>
+        <li><a href="pattern/Tasks.php">Tasks</a></li>
     </ul>
 </body>
 </html>
