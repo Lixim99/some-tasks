@@ -26,7 +26,7 @@
         <li><a href="pattern/Tasks.php">Работа с chr и ord</a></li>
         <li><a href="pattern/Tasks.php">Работа с strchr, strrchr</a></li>
         <li><a href="pattern/Tasks.php">Работа с strstr</a></li>
-        <li><a href="pattern/Tasks.php">Работа с str_repeat</a></li>
+        <li><a href="pattern/Tasks.php">Работа с str_repeat</a> </li>
         <li><a href="pattern/Tasks.php">Работа с str_repeat</a> </li>
     </ul>
 </body>
