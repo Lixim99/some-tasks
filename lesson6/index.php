@@ -19,7 +19,7 @@
         <li><a href="pattern/explodeAndImplode.php">Работа с explode, implode</a></li>
         <li><a href="pattern/strSplit.php">Работа с str_split</a></li>
         <li><a href="pattern/trimETC.php">Работа с trim, ltrim, rtrim</a></li>
-        <li><a href="pattern/Tasks.php">Работа с strrev</a></li>
+        <li><a href="pattern/strrevLes.php">Работа с strrev</a></li>
         <li><a href="pattern/Tasks.php">Работа с str_shuffle</a></li>
         <li><a href="pattern/Tasks.php">Работа с number_format</a></li>
         <li><a href="pattern/Tasks.php">Работа с strip_tags и htmlspecialchars</a></li>
