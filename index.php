@@ -20,6 +20,8 @@
         <li><a href="lesson10/">lesson10</a></li>
         <li><a href="lesson11/">lesson11</a></li>
         <li><a href="lesson12/">lesson12</a></li>
+        <li><a href="lesson13/">lesson13</a></li>
+        <li><a href="lesson14/">lesson14</a></li>
     </ul>
 </body>
 </html>
