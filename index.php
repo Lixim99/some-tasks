@@ -15,7 +15,8 @@
         <li><a href="lesson4/">lesson4</a></li>
         <li><a href="lesson5/">lesson5</a></li>
         <li><a href="lesson6/">lesson6</a></li>
-        <li><a href="lesson7/">lesson7</a></li>
+        <li><a href="lesson8/">lesson8</a></li>
+        <li><a href="lesson9/">lesson9</a></li>
     </ul>
 </body>
 </html>
