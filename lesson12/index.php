@@ -1,15 +1,34 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lesson 1</title>
-</head>
-<body>
-    <ul>
-        <li><a href="pattern/2task.php">2task</a></li>
-    </ul>
-</body>
-</html>
+<?php
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/header.php');
+
+    echo '<h1>Простые функции</h1>';
+
+    function power($a)
+    {
+        return $a * $a;
+    }
+
+    function summer($a, $b)
+    {
+        return $a + $b;
+    }
+
+    function deleter($a, $b, $c)
+    {
+        return ($a - $b) / $c;
+    }
+
+    function weekDay($day)
+    {
+        $days = [
+            1 => 'пн',
+            2 => 'вт',
+            3 => 'ср',
+            4 => 'чт',
+            5 => 'пт',
+            6 => 'сб',
+        ];
+        return $days[$day];
+    }
+
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/footer.php');

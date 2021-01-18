@@ -1,15 +1,24 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lesson 1</title>
-</head>
-<body>
-    <ul>
-        <li><a href="pattern/2task.php">2task</a></li>
-    </ul>
-</body>
-</html>
+<?php
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/header.php');
+
+
+    echo '<h1>Timestamp: time и mktime</h1>';
+
+    echo time() . '</br>';
+
+    echo mktime(0, 0, 0, 3, 1, 2025) . '</br>';
+    echo mktime(0, 0, 0, 12, 31) . '</br>';
+    echo mktime(13, 12, 59, 3, 15, 2000) . '</br>';
+    echo mktime(7, 23, 48) / 3600 . '</br>';
+
+    echo '<h1>Функция date</h1>';
+
+    echo date('Y:m:d i:s') . '</br>';
+
+    $date = '2025-12-31';
+    echo mktime($date);
+
+    echo '</br> continue ......';
+
+
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/footer.php');

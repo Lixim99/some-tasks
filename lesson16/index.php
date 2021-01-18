@@ -1,15 +1,32 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lesson 1</title>
-</head>
-<body>
-    <ul>
-        <li><a href="pattern/2task.php">2task</a></li>
-    </ul>
-</body>
-</html>
+<?php
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/header.php');
+
+    for ($i = 1; $i < 10; $i++) $str .= $i;
+    echo $str;
+
+    echo '</br>';
+    $str = '';
+    for ($i = 9; $i > 0; $i--) $str .= $i;
+    echo $str;
+
+    echo '</br>';
+    $str = '';
+    for ($i = 1; $i < 10; $i++) $str .= $i == 9 ? "-$i-" : "-$i";
+    echo $str;
+
+    for ($i = 0; $i <= 20; $i++) {
+        for ($b = 0; $b < $i; $b++) echo 'x';
+        echo '</br>';
+    }
+
+    for ($i = 0; $i < 10; $i++) {
+        for ($b = 0; $b < $i; $b++) echo $i;
+        echo '</br>';
+    }
+
+    for ($i = 0; $i <= 10; $i += 2) {
+        for ($b = 0; $b < $i; $b++) echo 'x';
+        echo '</br>';
+    }
+
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/footer.php');

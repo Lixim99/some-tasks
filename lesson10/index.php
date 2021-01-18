@@ -1,17 +1,36 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lesson 1</title>
-</head>
-<body>
-    <ul>
-        <li><a href="pattern/explodeAndImplode.php">1task</a></li>
-        <li><a href="pattern/2task.php">2task</a></li>
-        <li><a href="pattern/3task.php">3task</a></li>
-    </ul>
-</body>
-</html>
+<?php //FIX!!!
+require_once($_SERVER['DOCUMENT_ROOT'] . '/header.php');
+
+if (!isset($_POST['login'])) { ?>
+    <form method="POST">
+        <input type="text" name="login" placeholder="login">
+        <br><input type="password" name="password" placeholder="password">
+        <br><input type="submit" value="click">
+    </form>
+<?php
+}
+    echo trim($_REQUEST['login']) == 'admin' && trim($_REQUEST['password']) == '1234'?
+        "access confirm":"access denied";
+?>
+
+    <form method="GET">
+        <input type="text" name="name" value="<?php echo $_REQUEST['name']; ?>">
+        <br><textarea name="text"><?php echo $_REQUEST['text']; ?></textarea>
+    <br><input type="submit" value="click">
+    </form>
+
+
+<?php if (!isset($_GET['age'])) {?>
+    <form method="GET">
+        <input type="text" name="user" placeholder="name">
+        <br><input type="text" name="age" placeholder="age">
+        <br><textarea name="message" placeholder="message"></textarea>
+        <br><input type="submit" value="click">
+    </form>
+    <?php
+}else
+    echo ' Привет, ' . strip_tags($_REQUEST['user']) . ' ' . strip_tags($_REQUEST['age']) . ' лет.</br>' .
+        'Твое сообщение: ' . strip_tags($_REQUEST['message']);
+?>
+
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/footer.php');?>
